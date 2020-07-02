@@ -1,0 +1,38 @@
+.post_list_item {
+	margin-top: 10px;
+}
+.wrap_text_post {
+	height: 60px;
+	width: 90%;
+	background: white;
+  align-items: center;
+}
+/* .post_list_item button {
+	height: auto;
+} */
+.post_list_btn {
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+}
+.activ_heart_btn {
+	color: red;
+}
+.post_list_btn button {
+	border: none;
+	background: #97cadf;
+}
+.activ_imp {
+	font-weight: bold;
+}
+.activ_imp_btn {
+	color: yellow;
+}
+.post_list_btn button:hover {
+	z-index: 99;
+}
+.post_text {
+	margin-left: 20px;
+}
+
+

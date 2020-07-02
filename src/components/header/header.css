@@ -1,0 +1,12 @@
+.header_app {
+	margin: 0 0 20px 0;
+}
+.account_owner {
+	font-weight: 900;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.num_posts {
+	color: #666;
+}

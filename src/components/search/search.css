@@ -1,0 +1,12 @@
+.search_panel {
+	border:	#a9a9a9 1px solid;
+	
+}
+.search_panel:hover {
+	border: #282828 1px solid;
+	box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+.search_panel:focus {
+	border: #a9a9a9 2px solid;
+	box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}

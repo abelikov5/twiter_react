@@ -1,17 +1,44 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import App from './components/app';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+	<App/>,
+	document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+// class MyApp extends React.Component {
+// 	state = {
+// 		years: 20
+// 	}
+// 	nextYears = () => {
+// 		let tmp = this.state.years;
+// 		tmp++;
+// 		this.setState({years: tmp});
+// 	}
+// 	render () {
+// 		const {name, lastname, link} = this.props;
+// 		const {years} = this.state;
+// 	return (
+// 			<div className='container'>
+// 				<button onClick={this.nextYears}>++</button>
+// 				<h1>My name is {name}, my last name is {lastname}, age {years} </h1>
+// 				<a href={link}>This is my profile</a>
+// 			</div>
+// 		)
+// 	}
+// }
+
+
+// const All = () => {
+// 	return (
+// 		<>
+// 			<MyApp name = 'Alexander' lastname = 'Belikov' link = 'https://abelikov5.ru/tickets'/>
+// 			<MyApp name = 'Olga' lastname = 'Vasilyeva' link = 'https://abelikov5.ru/tickets'/>
+// 			<MyApp name = 'Alexandera' lastname = 'Alena' link = 'https://abelikov5.ru/tickets'/>
+// 		</>
+
+// 	)
+// }
